@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:TEENSYPP2
+LIBS:type5-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -85,24 +86,6 @@ F 3 "" H 2100 3200 50  0000 C CNN
 	1    2100 3200
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2300 2800 3150 2800
-Wire Wire Line
-	3150 2900 2300 2900
-Wire Wire Line
-	2300 3000 3150 3000
-Wire Wire Line
-	3150 3100 2300 3100
-Wire Wire Line
-	2300 3200 3150 3200
-Wire Wire Line
-	3150 3300 2300 3300
-Wire Wire Line
-	2300 3400 3150 3400
-Wire Wire Line
-	3150 3500 2300 3500
-Wire Wire Line
-	2300 3600 3150 3600
 Wire Wire Line
 	4350 6050 4350 5250
 Wire Wire Line
@@ -317,4 +300,22 @@ NoConn ~ 4450 5100
 NoConn ~ 4350 5100
 NoConn ~ 4250 5100
 NoConn ~ 3150 2700
+Wire Wire Line
+	2300 2800 3150 2800
+Wire Wire Line
+	3150 2900 2300 2900
+Wire Wire Line
+	2300 3000 3150 3000
+Wire Wire Line
+	3150 3100 2300 3100
+Wire Wire Line
+	2300 3200 3150 3200
+Wire Wire Line
+	3150 3300 2300 3300
+Wire Wire Line
+	2300 3400 3150 3400
+Wire Wire Line
+	3150 3500 2300 3500
+Wire Wire Line
+	2300 3600 3150 3600
 $EndSCHEMATC
