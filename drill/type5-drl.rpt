@@ -1,0 +1,25 @@
+Drill report for /home/zetsu/circuiti/type5/type5.kicad_pcb
+Created on lun 02 mag 2016 10:30:58 CEST
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'type5.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,64mm  0,025"  (2 holes)
+    T2  0,76mm  0,030"  (26 holes)
+    T3  0,85mm  0,033"  (9 holes)
+    T4  1,02mm  0,040"  (52 holes)
+
+    Total plated holes count 89
+
+
+Drill file 'type5-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
