@@ -133,14 +133,6 @@ Wire Wire Line
 Wire Wire Line
 	3850 5500 3850 6050
 Wire Wire Line
-	3750 6050 3750 5550
-Wire Wire Line
-	3750 5550 2850 5550
-Wire Wire Line
-	2850 5550 2850 4000
-Wire Wire Line
-	2850 4000 3150 4000
-Wire Wire Line
 	3150 3900 2800 3900
 Wire Wire Line
 	2800 3900 2800 5600
@@ -310,11 +302,20 @@ Wire Wire Line
 Wire Wire Line
 	2300 3600 3150 3600
 Wire Wire Line
-	5650 6650 5650 6050
-Wire Wire Line
-	1650 6650 5650 6650
-Wire Wire Line
-	1650 6650 1650 2700
-Wire Wire Line
 	1650 2700 3150 2700
+Wire Wire Line
+	5650 6050 5650 5750
+Wire Wire Line
+	5650 5750 6500 5750
+Wire Wire Line
+	6500 5750 6500 3200
+Wire Wire Line
+	6500 3200 5850 3200
+Wire Wire Line
+	3750 6050 3750 6400
+Wire Wire Line
+	3750 6400 1650 6400
+Wire Wire Line
+	1650 6400 1650 2700
+NoConn ~ 3150 4000
 $EndSCHEMATC
