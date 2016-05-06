@@ -1,4 +1,4 @@
-update=Sabato 30 Aprile 2016 10:57:44
+update=ven 06 mag 2016 10:15:01 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -59,3 +57,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=symbols/TEENSYPP2
+[general]
+version=1
