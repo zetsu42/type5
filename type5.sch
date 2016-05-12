@@ -50,12 +50,11 @@ U 1 1 5714CDB3
 P 4700 6250
 F 0 "P2" H 4700 7600 50  0000 C CNN
 F 1 "CONN_01X26" V 4800 6250 50  0000 C CNN
-F 2 "myfootprint:ffc_1.25m_26p" H 4700 6250 50  0001 C CNN
+F 2 "myfootprint:ffc_1.25m_26p_oval" H 4700 6250 50  0001 C CNN
 F 3 "" H 4700 6250 50  0000 C CNN
 	1    4700 6250
 	0    1    1    0   
 $EndComp
-NoConn ~ 5850 2700
 NoConn ~ 5850 3700
 NoConn ~ 5850 3800
 NoConn ~ 4050 5100
@@ -81,7 +80,7 @@ U 1 1 572339CC
 P 2100 3200
 F 0 "P1" H 2100 3700 50  0000 C CNN
 F 1 "CONN_01X09" V 2200 3200 50  0000 C CNN
-F 2 "myfootprint:ffc_1.25mm_9p" H 2100 3200 50  0001 C CNN
+F 2 "myfootprint:ffc_1.25mm_9p_oval" H 2100 3200 50  0001 C CNN
 F 3 "" H 2100 3200 50  0000 C CNN
 	1    2100 3200
 	-1   0    0    1   
@@ -296,12 +295,6 @@ Wire Wire Line
 Wire Wire Line
 	3750 6050 3750 6450
 Wire Wire Line
-	3750 6450 1750 6450
-Wire Wire Line
-	1750 6450 1750 2700
-Wire Wire Line
-	1750 2700 3150 2700
-Wire Wire Line
 	3150 4000 2800 4000
 Wire Wire Line
 	2800 4000 2800 5600
@@ -325,4 +318,22 @@ Wire Wire Line
 	2950 3700 2950 3600
 Wire Wire Line
 	2950 3600 2300 3600
+NoConn ~ 3150 2700
+Wire Wire Line
+	5850 2700 6800 2700
+Wire Wire Line
+	6800 2700 6800 6450
+$Comp
+L R R1
+U 1 1 57319DE9
+P 6650 6450
+F 0 "R1" V 6730 6450 50  0000 C CNN
+F 1 "R" V 6650 6450 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 6580 6450 50  0001 C CNN
+F 3 "" H 6650 6450 50  0000 C CNN
+	1    6650 6450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 6450 6500 6450
 $EndSCHEMATC
